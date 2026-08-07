@@ -1,1 +1,15 @@
-
+{
+  "name": "cloud-smart-switch",
+  "version": "1.0.0",
+  "description": "Cloud-based smart switch server with dashboard, ESP32 endpoint, and Google Home integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
